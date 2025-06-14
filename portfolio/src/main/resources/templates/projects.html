@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<header>
+    <h1>John Doe</h1>
+    <p>Software Developer</p>
+</header>
+
+<nav>
+    <a th:href="@{/}">Home</a>
+    <a th:href="@{/profile}">Profile</a>
+    <a th:href="@{/projects}">Projects</a>
+    <a th:href="@{/contact}">Contact</a>
+</nav>
+
+<section>
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-featured online store with payment processing</p>
+            <p><strong>Technologies:</strong> Java, Spring Boot, React</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Task Management App</h3>
+            <p>Productivity application for organizing daily tasks</p>
+            <p><strong>Technologies:</strong> JavaScript, Node.js, MongoDB</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather Dashboard</h3>
+            <p>Real-time weather information with forecasts</p>
+            <p><strong>Technologies:</strong> React, API Integration</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 John Doe. All rights reserved.</p>
+</footer>
+</body>
+</html>

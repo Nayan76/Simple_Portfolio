@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<header>
+    <h1>SK NAYAN</h1>
+    <p>Software Developer</p>
+</header>
+
+<nav>
+    <a th:href="@{/}">Home</a>
+    <a th:href="@{/profile}">Profile</a>
+    <a th:href="@{/projects}">Projects</a>
+    <a th:href="@{/contact}">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to My Portfolio</h2>
+    <p>I'm a passionate software developer specializing in Java and web technologies.</p>
+    <p>Explore my profile to learn more about my skills and projects.</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 SK Nayan. All rights reserved.</p>
+</footer>
+</body>
+</html>
